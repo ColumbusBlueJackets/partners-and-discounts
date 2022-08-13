@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f3f6fa;
+		background: #ffffff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -145,6 +145,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.5em;
 		letter-spacing: 0.1em;
+		padding-bottom: 10px;
 	}
 
 	h3 {
@@ -2168,9 +2169,9 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
+			background: #003366;
 			border-color: #83d3c9;
-			color: #fff !important;
+			color: #ffffff !important;
 		}
 
 			input[type="button"].primary:hover,
@@ -2178,8 +2179,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: #CC0033 !important;
+				border-color: #CC0033 !important;
 			}
 
 		input[type="button"].fit,
@@ -2212,8 +2213,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+			background-color: #003366;
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2235,7 +2235,7 @@ input, select, textarea {
 			.wrapper.style2 .button.primary {
 				background: #fff;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color: #003366 !important;
 			}
 
 				.wrapper.style2 input[type="button"].primary:hover,
@@ -2482,7 +2482,7 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-/* Banner */
+/* url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"),  */
 
 	@-moz-keyframes reveal-banner {
 		0% {
@@ -2527,7 +2527,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/overlay.png"), url("https://cms.nhl.bamgrid.com/images/photos/334641340/1600x815/cut.png");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2554,17 +2554,9 @@ input, select, textarea {
 			text-align: center;
 		}
 
-			#banner .inner header {
-				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
-				margin: 0 0 2em 0;
-				padding: 3px 0 3px 0;
-			}
+
 
 				#banner .inner header h2 {
-					border-bottom: solid 2px;
-					border-top: solid 2px;
 					font-size: 2.5em;
 					font-weight: 900;
 					letter-spacing: 0.2em;
@@ -2620,12 +2612,12 @@ input, select, textarea {
 		padding-top: 5em;
 	}
 
-/* CTA */
+/* url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"),  */
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("https://cms.nhl.bamgrid.com/images/photos/334641340/1600x815/cut.png");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
